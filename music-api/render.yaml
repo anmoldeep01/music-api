@@ -1,6 +1,7 @@
 services:
   - type: web
     name: music-api
+    root: music-api
     env: node
     plan: free
     buildCommand: npm install
